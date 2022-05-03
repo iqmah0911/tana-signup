@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inf {
+  background: #FAF8FD;
+     right: 170px!important;
+    /* padding-left: 135px; */
+    height: 100vh;
+  }
+
+  /* .inf2 {
+    /* padding-left: 135px !important;
+  } */ 
+
+  .text-start {
+    color:  #1F187D;
+    font-family: 'Montserrat';
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 50px;
+    
+
+  }
+
+  .text-start-1 {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #777;
+    
+  }
+  .container-forms {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.left {
+    display: flex;
+}
+
+.container-forms form {
+  color:  #1F187D;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    width: 350px;
+}
+
+.container-forms p{
+  font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    
+    color: #1F187D;
+    
+
+}
+    
+.container-forms input {
+  border-radius: 5px;
+left: 1%;
+background-color:  #fafafa;
+font-size: 16px;
+width: 90%;
+padding: 5px 5px;
+border: 1px solid #c7c7c7;
+}
+ .inf1 {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #777777;
+
+
+  }
+
+  .inf1 span {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #1F187D;
+
+  }
+
+  .btn {
+    margin-top: 10px;
+    padding: 5px 20%;
+    margin-left: 80px;
+    width: 100px;
+    height: 40px;
+    font-family: 'Montserrat';
+    
+font-weight: 700 !important;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+    background: #FB6E19;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+
+  }
+  @media  (max-width:768px) {
+    .inf {
+        display: none;
+        
+    }
+    
+    .inf2 {
+      margin-top: 30px;
+      margin-left: 140px;
+    }
+  } 
+
+
+  
